@@ -25,3 +25,8 @@ Make sure you have a working TeX installation and then
 3. Write paper in `paper.md`, refs in `paper.bib`, compile with `make paper.pdf`
 
 The file `paper.md` contains example code for tables, figures, equations, references and so on.
+
+
+## Credits
+
+The template was inspired by [ihrke/markdown-paper](https://github.com/ihrke/markdown-paper).
