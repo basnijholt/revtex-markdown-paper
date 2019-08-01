@@ -55,21 +55,18 @@ Table in LaTeX format because of fancy formatting
 -->
 
 \begin{table}[ht]
-\centering
-\caption{Probability to observe Bayes Factors of a certain magnitude or above for the used sample-size of $N=60$ assuming the original and the null-hypothesis.}
-\begin{tabular}{llrrr}
-  & & \multicolumn{3}{l}{$P(\text{BF}\ge\theta)$}\\
-  Hypothesis & BF Type & $\theta=3$ & $\theta=10$ & $\theta=20$ \\
-  \hline
-  $d\sim \mathcal{N}(1.57, 0.51)$ & JZS BF$_{10}$ & 0.98 & 0.97 & 0.96 \\
-     & Replication BF$_{10}$ & 0.98 & 0.96 & 0.96 \\
-     & Meta-Analysis BF$_{10}$ & 0.99 & 0.99 & 0.99 \\\cline{2-5}
-    $d=0$ & JZS BF$_{01}$ & 0.81 & 0.00 & 0.00 \\
-   & Replication BF$_{01}$ & 0.98 & 0.95 & 0.91 \\
-     & Meta-Analysis BF$_{01}$ & 0.63 & 0.27 & 0.06 \\
-   \hline
-\end{tabular}
-\label{tab:probbf}
+  \begin{center}
+    \caption{Your first table.}
+    \label{tab:table1}
+    \begin{tabular}{l|c|r}
+      \textbf{Value 1} & \textbf{Value 2} & \textbf{Value 3}\\
+      $\alpha$ & $\beta$ & $\gamma$ \\
+      \hline
+      1 & 1110.1 & a\\
+      2 & 10.1 & b\\
+      3 & 23.113231 & c\\
+    \end{tabular}
+  \end{center}
 \end{table}
 
 # Results
